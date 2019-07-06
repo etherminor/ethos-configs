@@ -18,6 +18,7 @@
 #ETH
 stratumproxy enabled
 proxywallet 0x0c1dcf6ba81ed7e14ef58d497594e08438a2f6f4
+#proxywallet 0x8606c0cf7a9fbb36cc2525b1a30b0fc6bc7513fb
 proxypool1 us1.ethermine.org:5555
 proxypool2 us1.ethermine.org:4444
 flags --cl-global-work 8192 --farm-recheck 250
@@ -26,37 +27,46 @@ flags --cl-global-work 8192 --farm-recheck 250
 #Miner
 #globalminer xmr-stak
 #xmr-stak=flags --amd /home/ethos/xmr-stak-amd.stub.conf --currency cryptonight_v8 --noNVIDIA
-globalminer ethminer 
-
-custompanel MRigs
+globalminer claymore 
 
 #Settings
-maxgputemp 85
 #globalpowertune 3
 globalfan 100
 autoreboot 8
 globalvolt 950
 globalcore 1200
 Globalmem 2000
+maxgputemp 85
 
 #mem ad89fc 1750 1750 1750 1750 1750 1750 1750 2500 
  
 
 #Rig Info 
-loc ad89fc 181
-loc ad8837 173
-#sel ad8837 1 2 3 4 5 6 7 
-loc ad883a 179
-#sel ad883a 1 2 3 4 5 6 7
-loc af7bdc 183
-loc af7be1 184
-sel af7be1 2 3 4 5 6 7 
-loc af7be4 182
-#sel af7be4 1 2 3 4 5 6 7 
-loc af7bfe 176
-#sel af7bfe 1 2 3 4 5 6 7 
-loc ad89e7 177
-loc ad8840 178
-#sel ad8840 1 2 3 4 5 6 7
-loc ae1e58 175
-
+loc ae1e55 254
+loc ad89b9 253
+loc ad89bc 252
+loc ab0557 251
+loc af7bab 250
+loc aee559 249
+loc ad89a7 248
+#loc 247
+loc ab0563 246
+loc af7b9f 245
+loc af7v1f 244
+loc ad89c8 243
+loc af7c22 242
+loc ae1e4f 241
+loc ab0551 240
+loc ad89fc 239
+loc af7bdc 238
+loc ad883a 237
+loc ae1e7c 236
+loc ab055d 235
+loc aee5d7 234
+loc ad8840 233
+loc ad89d1 232
+#loc 231
+#loc 230
+loc ab0569 229
+loc ad89c2 228
+loc af7c2b 227
