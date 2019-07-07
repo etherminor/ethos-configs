@@ -27,7 +27,8 @@ flags --cl-global-work 8192 --farm-recheck 250
 #Miner
 #globalminer xmr-stak
 #xmr-stak=flags --amd /home/ethos/xmr-stak-amd.stub.conf --currency cryptonight_v8 --noNVIDIA
-globalminer claymore 
+#globalminer claymore 
+globalminer ethminer
 
 #Settings
 globalpowertune 5
